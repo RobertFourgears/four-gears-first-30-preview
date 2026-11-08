@@ -14,8 +14,8 @@
     main{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(400px,.95fr);min-height:calc(100vh - 92px)}.story{padding:9vh 7vw 7vh 0;border-right:1px solid var(--line);display:flex;min-width:0;flex-direction:column;justify-content:space-between}.eyebrow{color:var(--acid);font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin:0 0 28px}.hero{font-size:clamp(54px,6.7vw,102px);line-height:.88;letter-spacing:-.068em;max-width:800px;margin:0;font-weight:720}.hero span{display:block;color:var(--acid)}
     .dek{display:block;min-width:0;width:100%;font-size:clamp(18px,1.5vw,23px);line-height:1.5;max-width:690px;color:#c5c3bc;margin:38px 0 0;overflow-wrap:break-word}.proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:70px;border-top:1px solid var(--line)}.proof div{min-width:0;padding:22px 18px 0 0}.proof strong{display:block;font-size:18px;color:var(--paper);margin-bottom:7px}.proof small{display:block;min-width:0;max-width:100%;font-size:12px;color:var(--muted);line-height:1.45;overflow-wrap:break-word}
     .diagnostic{padding:7vh 0 7vh 5vw;display:flex;align-items:center}.panel{width:100%;max-width:540px}.step{display:none;animation:rise .45s cubic-bezier(.22,.61,.36,1)}.step.active{display:block}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-    .counter{font-size:11px;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;margin-bottom:24px}.question{font-size:clamp(32px,3.2vw,54px);line-height:1;letter-spacing:-.045em;margin:0 0 32px}.options{display:grid;gap:10px}.option{appearance:none;background:transparent;border:1px solid var(--line);color:var(--paper);text-align:left;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;transition:.2s;border-radius:2px}.option:hover,.option:focus{outline:none;border-color:var(--acid);background:rgba(188,255,0,.06);transform:translateX(4px)}.option em{font-style:normal;color:var(--muted);font-size:12px}.option b{font-weight:520}.option i{font-style:normal;color:var(--acid);font-size:20px}
-    .result{border-top:1px solid var(--line);padding-top:24px}.result-label{color:var(--acid);text-transform:uppercase;letter-spacing:.17em;font-size:11px}.result h2{font-size:44px;letter-spacing:-.05em;line-height:1;margin:15px 0}.result p{color:#c5c3bc;line-height:1.55;font-size:17px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}.action{border:1px solid var(--acid);background:var(--acid);color:var(--ink);padding:16px;text-align:center;font-weight:650;cursor:pointer}.action.secondary{background:transparent;color:var(--paper);border-color:var(--line)}.reset{margin-top:18px;background:none;border:0;color:var(--muted);padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+    .counter{font-size:11px;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;margin-bottom:18px}.progress{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:26px}.progress i{height:2px;background:var(--line)}.progress i.on{background:var(--acid)}.route{display:inline-flex;align-items:center;gap:8px;color:var(--acid);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:15px}.route:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--acid)}.question{font-size:clamp(32px,3.2vw,54px);line-height:1;letter-spacing:-.045em;margin:0 0 15px}.prompt{color:#aaa9a2;font-size:15px;line-height:1.5;margin:0 0 26px}.options{display:grid;gap:10px}.option{appearance:none;background:transparent;border:1px solid var(--line);color:var(--paper);text-align:left;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;transition:.2s;border-radius:2px}.option:hover,.option:focus{outline:none;border-color:var(--acid);background:rgba(188,255,0,.06);transform:translateX(4px)}.option em{font-style:normal;color:var(--muted);font-size:12px}.option b{font-weight:520}.option i{font-style:normal;color:var(--acid);font-size:20px}.back{margin-top:18px;background:none;border:0;color:var(--muted);padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+    .result{border-top:1px solid var(--line);padding-top:24px}.result-label{color:var(--acid);text-transform:uppercase;letter-spacing:.17em;font-size:11px}.result h2{font-size:44px;letter-spacing:-.05em;line-height:1;margin:15px 0}.result p{color:#c5c3bc;line-height:1.55;font-size:17px}.heard{border:1px solid var(--line);padding:15px 17px;margin:22px 0;color:#c5c3bc;font-size:14px;line-height:1.5}.scope{list-style:none;padding:0;margin:20px 0 0;border-top:1px solid var(--line)}.scope li{padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}.scope li:before{content:"↗";color:var(--acid);margin-right:10px}.proof-route{color:var(--muted);font-size:13px;margin-top:18px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}.action{border:1px solid var(--acid);background:var(--acid);color:var(--ink);padding:16px;text-align:center;font-weight:650;cursor:pointer}.action.secondary{background:transparent;color:var(--paper);border-color:var(--line)}.reset{margin-top:18px;background:none;border:0;color:var(--muted);padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
     .note{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:#191a17;border:1px solid var(--line);padding:9px 14px;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);z-index:10;white-space:nowrap}.note b{color:var(--paper)}
     body.focus main{display:block;min-height:0}body.focus .story{display:none}body.focus .diagnostic{padding:46px 0 100px;max-width:620px}body.focus .panel{max-width:620px}
     @media(max-width:900px){.shell{padding:0 20px}.top{height:74px}.logo{width:180px}.preview{font-size:9px}main{display:block;min-height:0}.story{padding:58px 0 44px;border-right:0;border-bottom:1px solid var(--line)}.hero{font-size:clamp(52px,15vw,78px)}.dek{font-size:18px;margin-top:28px}.proof{margin-top:42px;gap:10px}.proof div{padding-top:18px}.proof strong{font-size:15px}.diagnostic{padding:52px 0 86px}.question{font-size:39px}.option{min-height:60px}.note{max-width:calc(100vw - 22px);white-space:normal;text-align:center}}
@@ -44,8 +44,10 @@
       <section class="diagnostic" aria-label="Business diagnostic preview">
         <div class="panel">
           <div class="step active" data-step="1">
-            <div class="counter">A 30-second starting point · 01</div>
+            <div class="counter">A focused starting point · 01</div>
+            <div class="progress"><i class="on"></i><i></i><i></i><i></i></div>
             <h2 class="question">Where is the pressure showing?</h2>
+            <p class="prompt">Choose the area that most needs to change. Your next questions will adapt to it.</p>
             <div class="options">
               <button class="option" data-answer="digital"><b>Our website or digital presence</b><i>↗</i></button>
               <button class="option" data-answer="workflow"><b>Slow, manual or disconnected work</b><i>↗</i></button>
@@ -56,21 +58,33 @@
             </div>
           </div>
           <div class="step" data-step="2">
-            <div class="counter">A 30-second starting point · 02</div>
-            <h2 class="question">What is it costing you?</h2>
-            <div class="options">
-              <button class="option" data-cost="time"><b>Too much team time</b><em>friction</em></button>
-              <button class="option" data-cost="money"><b>Lost revenue or unnecessary cost</b><em>leakage</em></button>
-              <button class="option" data-cost="momentum"><b>Slow decisions and stalled growth</b><em>momentum</em></button>
-              <button class="option" data-cost="trust"><b>Customer trust or brand credibility</b><em>confidence</em></button>
-            </div>
+            <div class="counter">Your diagnostic route · 02</div>
+            <div class="progress"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+            <div class="route" id="routeTwo"></div>
+            <h2 class="question" id="questionTwo"></h2>
+            <p class="prompt" id="promptTwo"></p>
+            <div class="options" id="optionsTwo"></div>
+            <button class="back" data-back="1">← Change the problem area</button>
           </div>
           <div class="step" data-step="3">
+            <div class="counter">Your diagnostic route · 03</div>
+            <div class="progress"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+            <div class="route" id="routeThree"></div>
+            <h2 class="question" id="questionThree"></h2>
+            <p class="prompt" id="promptThree"></p>
+            <div class="options" id="optionsThree"></div>
+            <button class="back" data-back="2">← Previous question</button>
+          </div>
+          <div class="step" data-step="4">
             <div class="counter">Your starting point</div>
+            <div class="progress"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
             <div class="result">
               <span class="result-label">Recommended first move</span>
               <h2 id="resultTitle">A focused diagnostic.</h2>
               <p id="resultCopy">We would map the constraint, show the commercial consequence and recommend the smallest useful intervention—before proposing a larger build.</p>
+              <div class="heard" id="heard"></div>
+              <ul class="scope" id="scope"></ul>
+              <div class="proof-route" id="proofRoute"></div>
               <div class="actions"><button class="action">Talk it through</button><button class="action secondary">See relevant proof</button></div>
               <button class="reset">Start again</button>
             </div>
@@ -81,29 +95,124 @@
   </div>
   <div class="note"><b>Private proposal:</b> buttons are illustrative; no data is submitted</div>
   <script>
-    let issue='unknown';
-    const steps=[...document.querySelectorAll('.step')];
-    const show=n=>steps.forEach(s=>s.classList.toggle('active',s.dataset.step===String(n)));
-    document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{issue=b.dataset.answer;show(2)});
-    const outcomes={
-      digital:['Digital Rescue','We would identify where the current digital journey loses attention, confidence or enquiries, then prioritise the fixes with the clearest commercial value.'],
-      workflow:['AI Workflow Design','We would map the work, remove avoidable hand-offs and design a controlled workflow that gives the team time back.'],
-      revenue:['Revenue audit','We would find where demand or value is escaping, then give you a practical order for recovering it.'],
-      content:['A content system built to perform','We would connect strategy, social, film and distribution so every asset has a job—and the work compounds.'],
-      ai:['Controlled AI Operations','We would identify the useful AI opportunity, define the controls and build a system your team can actually operate.'],
-      unknown:['Business Constraint Diagnostic','We would separate symptoms from causes, quantify what matters and show you the smallest sensible next move.']
+    const routes={
+      digital:{
+        label:'Website & digital',
+        q2:'What is the website failing to do?',
+        p2:'This separates a visibility problem from a conversion or credibility problem.',
+        a2:[['convert','It gets attention but not enough enquiries'],['explain','People do not quickly understand what we offer'],['trust','It does not reflect the quality of the business'],['traffic','Too few of the right people find it'],['technical','It is slow, broken or difficult to manage']],
+        q3:'Where does the failure become commercially painful?',
+        p3:'Choose the consequence you would most value removing.',
+        a3:[['leads','Qualified opportunities are being lost'],['sales','Sales conversations start with confusion'],['reputation','The website weakens confidence in us'],['dependency','Every change requires too much effort']],
+        title:'Digital performance diagnostic',
+        copy:'We would trace the journey from discovery to enquiry, identify the point losing attention or confidence and prioritise the highest-value corrections.',
+        scope:['Conversion-path and message review','Technical, search and measurement check','Prioritised rescue plan tied to commercial value'],
+        proof:'Matched proof: PlumbGas NI and Fetherstons digital work.'
+      },
+      workflow:{
+        label:'Workflow & operations',
+        q2:'Where is the work getting stuck?',
+        p2:'We need to find the friction before deciding whether automation is appropriate.',
+        a2:[['handoffs','Information is repeatedly handed between people'],['rekeying','The same data is entered more than once'],['followup','Follow-up depends on memory and chasing'],['tools','Our tools do not talk to one another'],['visibility','Nobody has a reliable view of progress']],
+        q3:'What would a successful fix release?',
+        p3:'This determines whether the priority is capacity, control or customer experience.',
+        a3:[['hours','Meaningful team time every week'],['speed','Faster delivery or response times'],['errors','Fewer errors and missed actions'],['capacity','Capacity to grow without more administration']],
+        title:'Workflow redesign diagnostic',
+        copy:'We would map the real process, quantify avoidable work and design the smallest controlled workflow that removes it.',
+        scope:['Current-state workflow and hand-off map','Automation suitability and risk assessment','Build specification with measurable time recovery'],
+        proof:'Matched proof: operational systems and controlled workflow builds.'
+      },
+      revenue:{
+        label:'Revenue leakage',
+        q2:'Where do opportunities appear to disappear?',
+        p2:'Leakage usually sits in acquisition, response, follow-up or conversion—not everywhere at once.',
+        a2:[['acquisition','We are not attracting enough qualified demand'],['response','Enquiries are not answered quickly or consistently'],['followup','Promising conversations go quiet'],['conversion','Interest does not become proposals or sales'],['retention','Existing customers are not returning or expanding']],
+        q3:'What evidence do you currently have?',
+        p3:'We can work with imperfect data, but the starting evidence changes the audit.',
+        a3:[['measured','We can see the numbers and know they are weak'],['fragmented','The evidence exists across several systems'],['anecdotal','The team sees it but it is not measured'],['unknown','We cannot reliably see what is happening']],
+        title:'Revenue leakage audit',
+        copy:'We would trace the chosen failure point, reconcile the available evidence and quantify where recoverable value is escaping.',
+        scope:['Demand-to-sale journey and response audit','Measurement gaps and leakage estimate','Recovery actions ranked by value and effort'],
+        proof:'Matched proof: commercial diagnostics and conversion recovery work.'
+      },
+      content:{
+        label:'Content, social & film',
+        q2:'What is the content failing to achieve?',
+        p2:'The answer changes whether you need strategy, production, distribution or a complete operating system.',
+        a2:[['consistency','We cannot publish consistently'],['quality','The work does not look or feel good enough'],['attention','Content is published but earns little attention'],['conversion','Attention does not create enquiries or sales'],['system','We create assets, but nothing compounds']],
+        q3:'What capability is missing most?',
+        p3:'This determines the right mix of strategic, creative and production support.',
+        a3:[['strategy','A clear editorial and campaign direction'],['production','Reliable high-end production capacity'],['video','World-class film and videography'],['distribution','Platform-specific distribution and iteration'],['measurement','Useful attribution and performance learning']],
+        title:'Content growth system',
+        copy:'We would connect the commercial objective to strategy, production, distribution and measurement so every asset has a defined job.',
+        scope:['Content and channel opportunity map','Campaign, film and production system','Distribution and learning cadence'],
+        proof:'Matched proof: Allsport, Belfast Harlequins and Four Gears production work.'
+      },
+      ai:{
+        label:'Controlled AI',
+        q2:'What stage are you actually at with AI?',
+        p2:'A useful build starts from operational reality—not from an AI shopping list.',
+        a2:[['exploring','We see opportunities but have not chosen one'],['shadow','Staff already use AI without clear controls'],['pilot','We have experiments that have not reached production'],['scale','We need to scale a useful workflow safely'],['repair','An existing AI implementation is underperforming']],
+        q3:'What must the operating model protect?',
+        p3:'Control requirements shape the architecture from the beginning.',
+        a3:[['data','Sensitive or client data'],['quality','Accuracy and output quality'],['approval','Human review and decision authority'],['audit','Traceability and accountability'],['adoption','Staff confidence and practical adoption']],
+        title:'Controlled AI operations plan',
+        copy:'We would select the highest-value use case, define the necessary controls and specify a system people can safely operate.',
+        scope:['Use-case value and feasibility assessment','Data, approval and accountability controls','Production build and adoption roadmap'],
+        proof:'Matched proof: controlled AI and operational automation builds.'
+      },
+      unknown:{
+        label:'Unclear business constraint',
+        q2:'What tells you something is wrong?',
+        p2:'Symptoms help us choose where to investigate without pretending the diagnosis is already known.',
+        a2:[['margin','Margins or cash performance feel weaker'],['capacity','The team is busy but output is not improving'],['growth','Growth has stalled without an obvious cause'],['customer','Customers are confused, slow to decide or disengaging'],['complexity','The business has accumulated too much complexity']],
+        q3:'Where would clarity be most valuable?',
+        p3:'This frames the first diagnostic around a decision you actually need to make.',
+        a3:[['priority','Knowing what to fix first'],['investment','Knowing where to invest next'],['simplify','Knowing what to stop or simplify'],['evidence','Knowing what the evidence really says']],
+        title:'Business constraint diagnostic',
+        copy:'We would separate symptoms from causes, quantify the meaningful constraint and recommend the smallest useful intervention.',
+        scope:['Cross-functional symptom and evidence review','Constraint map with commercial significance','Clear decision and ordered next actions'],
+        proof:'Matched proof: relevant diagnostic and transformation work.'
+      }
     };
-    document.querySelectorAll('[data-cost]').forEach(b=>b.onclick=()=>{const [t,c]=outcomes[issue];document.querySelector('#resultTitle').textContent=t;document.querySelector('#resultCopy').textContent=c;show(3)});
-    document.querySelector('.reset').onclick=()=>show(1);
+    let state={issue:null,symptom:null,impact:null};
+    const steps=[...document.querySelectorAll('.step')];
+    const show=n=>{steps.forEach(s=>s.classList.toggle('active',s.dataset.step===String(n)));window.scrollTo({top:document.querySelector('.diagnostic').offsetTop-20,behavior:'smooth'})};
+    const renderOptions=(target,items,handler)=>{target.innerHTML='';items.forEach(([value,label])=>{const button=document.createElement('button');button.className='option';button.innerHTML=`<b>${label}</b><i>↗</i>`;button.onclick=()=>handler(value,label);target.appendChild(button)})};
+    const startRoute=issue=>{
+      state={issue,symptom:null,impact:null};
+      const route=routes[issue];
+      document.querySelector('#routeTwo').textContent=route.label;
+      document.querySelector('#questionTwo').textContent=route.q2;
+      document.querySelector('#promptTwo').textContent=route.p2;
+      renderOptions(document.querySelector('#optionsTwo'),route.a2,(value,label)=>{state.symptom={value,label};renderThird();show(3)});
+      show(2);
+    };
+    const renderThird=()=>{
+      const route=routes[state.issue];
+      document.querySelector('#routeThree').textContent=route.label;
+      document.querySelector('#questionThree').textContent=route.q3;
+      document.querySelector('#promptThree').textContent=route.p3;
+      renderOptions(document.querySelector('#optionsThree'),route.a3,(value,label)=>{state.impact={value,label};renderResult();show(4)});
+    };
+    const renderResult=()=>{
+      const route=routes[state.issue];
+      document.querySelector('#resultTitle').textContent=route.title;
+      document.querySelector('#resultCopy').textContent=route.copy;
+      document.querySelector('#heard').innerHTML=`<strong>What we heard</strong><br>Primary symptom: ${state.symptom.label}.<br>Desired change: ${state.impact.label}.`;
+      document.querySelector('#scope').innerHTML=route.scope.map(item=>`<li>${item}</li>`).join('');
+      document.querySelector('#proofRoute').textContent=route.proof;
+    };
+    document.querySelectorAll('[data-answer]').forEach(button=>button.onclick=()=>startRoute(button.dataset.answer));
+    document.querySelectorAll('[data-back]').forEach(button=>button.onclick=()=>show(Number(button.dataset.back)));
+    document.querySelector('.reset').onclick=()=>{state={issue:null,symptom:null,impact:null};show(1)};
     const previewState=new URLSearchParams(location.search).get('view');
     if(previewState==='diagnostic') document.body.classList.add('focus');
     if(previewState==='result'){
       document.body.classList.add('focus');
-      issue='revenue';
-      const [title,copy]=outcomes[issue];
-      document.querySelector('#resultTitle').textContent=title;
-      document.querySelector('#resultCopy').textContent=copy;
-      show(3);
+      state={issue:'revenue',symptom:{value:'followup',label:'Promising conversations go quiet'},impact:{value:'fragmented',label:'The evidence exists across several systems'}};
+      renderResult();
+      show(4);
     }
   </script>
 </body>
